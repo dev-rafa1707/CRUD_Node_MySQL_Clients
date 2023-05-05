@@ -4,7 +4,9 @@
   "description": "crud node mysql clients",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "author": "dev-rafa1707",
   "license": "ISC",
