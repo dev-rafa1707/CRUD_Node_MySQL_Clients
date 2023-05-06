@@ -10,6 +10,10 @@ const clientController = {
 
     },
 
+    async getByCity(req,res) {
+
+    },
+
 
 
 }

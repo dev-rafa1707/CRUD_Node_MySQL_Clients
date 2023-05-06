@@ -12,10 +12,11 @@ router.get(`/${routeName}`, clientController.getAll)
 
 
 // getById: Return the client by the selected Id
-router.get(`/${routeName}`, clientController.getById)
+router.get(`/${routeName}/:idClient`, clientController.getById)
+
 
 // getByCity: Return the client/ the clientes by the selected city
-
+router.get(`/${routeName}/:idCity`, clientController.getByCity)
 
 // create a new client in the database
 
