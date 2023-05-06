@@ -18,6 +18,10 @@ const clientController = {
 
     },
 
+    async update(req,res) {
+
+    },
+
 
 
 }
