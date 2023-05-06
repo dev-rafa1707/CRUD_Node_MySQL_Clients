@@ -1,4 +1,4 @@
-const Client = require('../models/schemaClients')
+const Client = require('../models/schemaClients');
 
 
 const clientController = {
@@ -22,8 +22,12 @@ const clientController = {
 
     },
 
+    async delete(req,res) {
+
+    },
 
 
-}
+
+};
 
 module.exports = clientController
