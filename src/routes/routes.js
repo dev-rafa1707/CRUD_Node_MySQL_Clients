@@ -31,4 +31,4 @@ router.put(`/${routeName}/:id`, clientController.update);
 router.delete(`/${routeName}/:id`, clientController.delete);
 
 
-module.exports = router
+module.exports = router;
