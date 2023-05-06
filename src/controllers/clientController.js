@@ -3,7 +3,12 @@ const Client = require('../models/schemaClients');
 
 const clientController = {
     async getAll(req,res) {
-
+        try {
+            const clients = await Client.findAll();
+            return res.json(clients);
+        } catch (error) {
+            return res.status(500).json({error: error.message });
+        }
     },
 
     async getById(req,res) {
