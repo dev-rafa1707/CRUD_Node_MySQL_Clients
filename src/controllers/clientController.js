@@ -1,4 +1,4 @@
-const Client = require('../models/schemaClients');
+const Client = require('../models/schemaClient');
 
 
 const clientController = {
