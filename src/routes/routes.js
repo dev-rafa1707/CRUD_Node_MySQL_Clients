@@ -2,7 +2,7 @@ const express = require('express');
 const clientController = require('../controllers/clientController');
 
 const router = express.Router();
-const routeName = 'clients';
+const routeName = 'client';
 
 
 
@@ -12,7 +12,7 @@ router.get(`/${routeName}`, clientController.getAll);
 
 
 // getById: Return the client by the selected Id
-router.get(`/${routeName}/:idClient`, clientController.getById);
+router.get(`/${routeName}/:id`, clientController.getById);
 
 
 // getByCity: Return the client/ the clientes by the selected city

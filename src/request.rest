@@ -1,0 +1,40 @@
+
+# GetAll
+# Consultar os clientes cadastrados
+GET http://localhost:3000/client
+
+###  
+# Get by Id
+# Consultar os produtos por Id
+GET http://localhost:3000/product/5
+
+###  
+# Update a product by Id
+# Atualizar um produto utilizando a Id
+PUT http://localhost:3000/product/1
+Content-Type: application/json
+
+    {
+        "product_name":"Notebook Dell",
+        "product_desc":"Notebook Dell Inspiron 6578",
+        "quantity":10,
+        "price":2359
+    }
+  
+###
+# Create a produtc
+# Criar um produto
+POST http://localhost:3000/product/
+Content-Type: application/json
+
+    {
+        "product_name":"Teclado gamer H138",
+        "product_desc":"Teclado gamer Logitech Special",
+        "quantity":8,
+        "price":99
+    }
+  
+###
+# Delete a produtc by Id
+# Deletar um produto usando a Id
+DELETE http://localhost:3000/product/8
