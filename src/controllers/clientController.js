@@ -12,7 +12,16 @@ const clientController = {
     },
 
     async getById(req,res) {
-
+        try {
+            const {id} = req.params;
+            const client = await Client.findByPk(id);
+            if (!client) {
+                return res.status(404).json({ message: 'Client not found'});
+            }
+            return res.status(200).json({client});
+        } catch (error) {
+            return res.status(500).json({ error: error.message});
+        }
     },
 
     async getByCity(req,res) {
