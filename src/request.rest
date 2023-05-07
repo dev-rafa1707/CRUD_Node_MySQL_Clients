@@ -32,7 +32,8 @@ Content-Type: application/json
         "cep":"86490000"
     }
   
+
+
 ###
-# Delete a produtc by Id
-# Deletar um produto usando a Id
-DELETE http://localhost:3000/product/8
+# Delete a client by Id
+DELETE http://localhost:3000/client/2
