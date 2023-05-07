@@ -21,16 +21,15 @@ Content-Type: application/json
   
 ###
 # Create a client
-# Criar um cliente
 POST http://localhost:3000/client/
 Content-Type: application/json
 
     {
-        "nome":"Rafael da Silva",
-        "email":"rafael@bol.com.br",
-        "cidade":"Fpolis",
+        "nome":"Bruno Pereira",
+        "email":"bruno@bol.com.br",
+        "cidade":"Sao Jose",
         "estado":"SC",
-        "cep":"89990000"
+        "cep":"86490000"
     }
   
 ###
