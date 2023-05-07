@@ -1,3 +1,4 @@
+const { request } = require('http');
 const Client = require('../models/schemaClient');
 
 
@@ -29,7 +30,19 @@ const clientController = {
     },
 
     async create(req,res) {
-
+        try {
+            const {nome, email, cidade, estado, cep} = req.body;
+            const client = await Client.create({
+                nome: reqClient.nome,
+                email: reqClient.email,
+                cidade: reqClient.cidade,
+                estado: reqClient.estado,
+                cep:  reqClient.cep,
+            });
+            return res.status(200).json(client)
+        } catch (error) {
+            return res.status(500).json({ error: error.message})
+        }
     },
 
     async update(req,res) {
