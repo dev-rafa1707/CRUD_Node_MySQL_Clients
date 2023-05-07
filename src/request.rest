@@ -22,16 +22,17 @@ Content-Type: application/json
     }
   
 ###
-# Create a produtc
-# Criar um produto
-POST http://localhost:3000/product/
+# Create a client
+# Criar um cliente
+POST http://localhost:3000/client/
 Content-Type: application/json
 
     {
-        "product_name":"Teclado gamer H138",
-        "product_desc":"Teclado gamer Logitech Special",
-        "quantity":8,
-        "price":99
+        "nome":"Rafael da Silva",
+        "email":"rafael@bol.com.br",
+        "cidade":"Fpolis",
+        "estado":"SC",
+        "cep":"89990000"
     }
   
 ###
