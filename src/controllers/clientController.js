@@ -27,7 +27,7 @@ const clientController = {
 
     async getByCity(req,res) {   
         try {
-            const {cidade} = req.params;
+            const {cidade} = req.query.cidade;
             const client = await Client.findAll({
                 attributes:[`${cidade}`]
             });
