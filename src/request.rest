@@ -4,7 +4,7 @@ GET http://localhost:3000/client
 
 ###  
 # GetbyId
-GET http://localhost:3000/client/2
+GET http://localhost:3000/client/3
 
 ###  
 # Update a client using the Id

@@ -16,7 +16,7 @@ router.get(`/${routeName}/:id`, clientController.getById);
 
 
 // getByCity: Return the client/ the clientes by the selected city
-router.get(`/${routeName}/:idCity`, clientController.getByCity);
+router.get(`/${routeName}/:city`, clientController.getByCity);
 
 
 // create a new client in the database
