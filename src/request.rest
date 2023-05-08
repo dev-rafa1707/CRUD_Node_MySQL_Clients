@@ -2,6 +2,14 @@
 # GetAll the clients
 GET http://localhost:3000/client
 
+###
+# GetByCity
+GET http://localhost:3000/client/Fpolis
+
+
+
+
+
 ###  
 # GetbyId
 GET http://localhost:3000/client/3
