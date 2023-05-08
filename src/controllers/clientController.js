@@ -1,4 +1,5 @@
 // const { request } = require('http');
+const sequelize = require('../config/connection');
 const Client = require('../models/schemaClient');
 
 
