@@ -32,7 +32,6 @@ const clientController = {
         try {
             const {cidade} = req.params;
             const client = await Client.findAll({
-                // attributes:[`${cidade}`]
                 where: { cidade: cidade}
             });
             if (!client) {
