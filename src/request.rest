@@ -4,7 +4,7 @@ GET http://localhost:3000/client
 
 ###
 # GetByCity
-GET http://localhost:3000/client/cidade/Fpolis
+GET http://localhost:3000/client/cidade/Brasilia
 
 
 ###  
@@ -30,8 +30,8 @@ POST http://localhost:3000/client/
 Content-Type: application/json
 
     {
-        "nome":"Francieli Almeida",
-        "email":"fran@bol.com.br",
+        "nome":"Diogo Silva",
+        "email":"diogo@bol.com.br",
         "cidade":"Brasilia",
         "estado":"DF",
         "cep":"86490000"
