@@ -26,11 +26,14 @@ const clientController = {
         }
     },
 
-    async getByCity(req,res) {   
+    async getByCity(req,res) {
+        
+ 
         try {
-            const {cidade} = req.query.cidade;
+            const {cidade} = req.params;
             const client = await Client.findAll({
-                attributes:[`${cidade}`]
+                // attributes:[`${cidade}`]
+                where: { cidade: cidade}
             });
             if (!client) {
                 return res.status(404).json({ message: 'City not found'});

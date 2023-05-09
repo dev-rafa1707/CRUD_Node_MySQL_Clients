@@ -4,12 +4,12 @@ GET http://localhost:3000/client
 
 ###
 # GetByCity
-GET http://localhost:3000/client/Fpolis
+GET http://localhost:3000/client/cidade/Brasilia
 
 
 ###  
 # GetbyId
-GET http://localhost:3000/client/3
+GET http://localhost:3000/client/1
 
 ###  
 # Update a client using the Id
