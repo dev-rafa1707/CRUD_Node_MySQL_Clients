@@ -32,7 +32,7 @@ const clientController = {
         try {
             const {cidade} = req.params;
             const client = await Client.findAll({
-                where: { cidade: cidade}
+                where: {cidade: cidade}
             });
             if (!client) {
                 return res.status(404).json({ message: 'City not found'});
