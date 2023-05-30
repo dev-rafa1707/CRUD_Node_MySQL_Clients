@@ -9,7 +9,7 @@ GET http://localhost:3000/client/cidade/curitiba
 
 ###  
 # GetbyId
-GET http://localhost:3000/client/1
+GET http://localhost:3000/client/5
 
 ###  
 # Update a client using the Id
@@ -17,10 +17,10 @@ PUT http://localhost:3000/client/5
 Content-Type: application/json
 
     {
-        "nome":"Diogo de Andrada Silva",
-        "email":"diogo@bol.com.br",
-        "cidade":"Brasilia",
-        "estado":"DF",
+        "nome":"Diogo Limera Silva",
+        "email":"diogo@aol.com.br",
+        "cidade":"Cuiaba",
+        "estado":"MS",
         "cep":"06730000"
     }
   
@@ -30,10 +30,10 @@ POST http://localhost:3000/client/
 Content-Type: application/json
 
     {
-        "nome":"Ana Giseli",
-        "email":"ana@bol.com.br",
-        "cidade":"Fpolis",
-        "estado":"SC",
+        "nome":"Arnaldo Antunes",
+        "email":"arnaldo@bol.com.br",
+        "cidade":"Curitiba",
+        "estado":"PR",
         "cep":"86490000"
     }
   
