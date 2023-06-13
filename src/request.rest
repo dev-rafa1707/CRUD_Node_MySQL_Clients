@@ -41,4 +41,4 @@ Content-Type: application/json
 
 ###
 # Delete a client by Id
-DELETE http://localhost:3000/client/2
+DELETE http://localhost:3000/client/4
