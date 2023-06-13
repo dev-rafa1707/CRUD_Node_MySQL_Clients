@@ -9,7 +9,7 @@ GET http://localhost:3000/client/cidade/fpolis
 
 ###  
 # GetbyId
-GET http://localhost:3000/client/7
+GET http://localhost:3000/client/5
 
 ###  
 # Update a client using the Id
@@ -19,8 +19,8 @@ Content-Type: application/json
     {
         "nome":"Diogo Limera Silva",
         "email":"diogo@aol.com.br",
-        "cidade":"Cuiaba",
-        "estado":"MS",
+        "cidade":"Limeira",
+        "estado":"SP",
         "cep":"06730000"
     }
   
