@@ -30,10 +30,10 @@ POST http://localhost:3000/client/
 Content-Type: application/json
 
     {
-        "nome":"Arnaldo Antunes",
-        "email":"arnaldo@bol.com.br",
-        "cidade":"Curitiba",
-        "estado":"PR",
+        "nome":"Maria Antonieta",
+        "email":"maria@bol.com.br",
+        "cidade":"Brasilia",
+        "estado":"DF",
         "cep":"86490000"
     }
   
