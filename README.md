@@ -57,13 +57,13 @@ GetAll the clients
 GET http://localhost:3000/client
 
 GetByCity
-GET http://localhost:3000/client/cidade/fpolis
+GET http://localhost:3000/client/cidade/:cityname
 
 GetbyId
-GET http://localhost:3000/client/5
+GET http://localhost:3000/client/:id
 
 Update a client using the Id
-PUT http://localhost:3000/client/5
+PUT http://localhost:3000/client/:id
 Content-Type: application/json
 
     {
@@ -89,7 +89,7 @@ Content-Type: application/json
 
 
 Delete a client by Id
-DELETE http://localhost:3000/client/4
+DELETE http://localhost:3000/client/:id
 
 
 
